@@ -1,0 +1,99 @@
+body {
+    background-color: #d0d1d1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.bg-brown {
+    background-color: #674A42;
+}
+
+.bg-gray{
+    background-color: #393E46;
+    background-image: url(../assets/images/ninos-participando-gris.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-form{
+    background-color: #393E46;
+    background-image: url(../assets/images/bg-contact.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-fluid img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #ccc;
+}
+
+.btn-primary{
+    background-color: #674A42;
+    border: 3px solid #674A42;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    border: 3px solid #674A42;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: transparent;
+    border: 3px solid #674A42;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar{
+    background-color: #674A42;
+    border: 2px solid #674A42;
+    padding: 7px 18px;
+    border: 2px solid #674A42;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.enviar:hover{
+    background-color: #583f38;
+    border: 2px solid #583f38;
+
+}
+
+.navbar-toggler{
+    border: 1px solid white;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.294);
+}
+
+form{
+    width: 500px;
+    min-width: 10vh;
+}
+
+.img-quiero-ayudar{
+    filter: brightness(70%);
+    max-height: 700px;
+}
+
+
+@media (max-width: 728px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
