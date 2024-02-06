@@ -8,7 +8,7 @@ body {
     background-color: #674A42;
 }
 
-.bg-gray{
+.bg-home{
     background-color: #393E46;
     background-image: url(../assets/images/ninos-participando-gris.png);
     background-size: cover;
@@ -27,6 +27,11 @@ body {
     background-image: url(../assets/images/ubi.png);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.bg-gray{
+    background-color: #393E46;
+    color: #fff;
 }
 
 .container-fluid img {
@@ -95,6 +100,15 @@ form{
 .img-quiero-ayudar{
     filter: brightness(70%);
     max-height: 700px;
+}
+
+.img-gray{
+    filter: grayscale(100);
+}
+
+.img-gray:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
 }
 
 @media (max-width: 728px){
